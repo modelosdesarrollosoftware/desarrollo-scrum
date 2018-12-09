@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+	<title>Modelos de desarrollo de Software</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+
+<body>
+	<header>
+		<div class ="encabezado">
+			<h1>Modelos de desarrollo de Software</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="C:/Users/Usuario/Desktop/Modelos%20Desarrollo%20Software/modeloPrototipos.html">Desarrollo por Prototipos</a></li>
+				<li><a href="C:/Users/Usuario/Desktop/Modelos%20Desarrollo%20Software/modeloEspiral.html">Desarrollo en Espiral</a></li>
+				<li><a href="C:/Users/Usuario/Desktop/Modelos%20Desarrollo%20Software/modeloScrum.html">SCRUM</a></li>
+				<li><a href="C:/Users/Usuario/Desktop/Modelos%20Desarrollo%20Software/index.html">Desarrollo en Cascada</a></li>
+				<li><a href="C:/Users/Usuario/Desktop/Modelos%20Desarrollo%20Software/modeloRUP.html">RUP</a></li>
+				<li><a href="C:/Users/Usuario/Desktop/Modelos%20Desarrollo%20Software/modeloIncremental.html">Modelo Incremental</a></li>
+				<li><a href="C:/Users/Usuario/Desktop/Modelos%20Desarrollo%20Software/modeloDRA.html">DRA</a></li>				
+			</ul>
+		</nav>
+	</header>
+	
+	<section class="main">		
+		<section class="articles">
+			<article>
+				<h2>Extremme Programming</h2>
+				<p>Extreme Programming XP empezó a gestarse como método en los años 80 con Kent Beck y 
+				Ward Cunningham cuando trabajaban en un proyecto utilizando SmallTalk, que es un lenguaje 
+				de programación orientado al público en general y no sólo a informáticos especializados. 
+				La filosofía de este lenguaje se basa en elementos como la programación en parejas, refactorización, 
+				adaptación al cambio, integración frecuente, desarrollo iterativo, pruebas constantes, y sobre todo, 
+				una frecuente comunicación con el cliente. Algunos autores afirman que XP es la cultura de trabajo de 
+				SmallTalk ampliada a otros entornos de programación. Se fueron incorporando más prácticas entre las que 
+				cabe destacar el desarrollo dirigido por pruebas, Test Driven Development (TDD). Kent Beck publicó el 
+				libro Extremed Programming Explained en 1999 en el que incorporaba a las prácticas puramente de programación, 
+				numerosos conceptos de Scrum para fortalecer así la convivencia del desarrollo de software con algunos 
+				conceptos de gestión de equipos. </p><br/>
+				
+				<h3>Fases</h3></br>
+				<p><b>Fase de la exploración.</b>
+					En esta fase, los clientes plantean a grandes rasgos las historias de usuario que son de interés 
+					para la primera entrega del producto. Al mismo tiempo el equipo de desarrollo se familiariza con 
+					las herramientas, tecnologías y prácticas que se utilizarán en el proyecto. Se prueba la tecnología 
+					y se exploran las posibilidades de la arquitectura del sistema construyendo un prototipo. La fase 
+					de exploración toma de pocas semanas a pocos meses, dependiendo del tamaño y familiaridad que tengan 
+					los programadores con la tecnología.</p>
+					
+				<p><b>Fase del planeamiento.</b>
+					Se priorizan las historias de usuario y se acuerda el alcance del release. Los programadores estiman 
+					cuánto esfuerzo requiere cada historia y a partir de allí se define el cronograma. La duración del 
+					cronograma del primer release no excede normalmente dos meses. La fase de planeamiento toma un par de días.
+					Se deben incluir varias iteraciones para lograr un release. El cronograma fijado en la etapa de planeamiento
+					se realiza a un número de iteraciones, cada una toma de una a cuatro semanas en ejecución. La primera iteración
+					crea un sistema con la arquitectura del sistema completo. Esto es alcanzado seleccionando las historias que 
+					harán cumplir la construcción de la estructura para el sistema completo. El cliente decide las historias que 
+					se seleccionarán para cada iteración. Las pruebas funcionales creadas por el cliente se ejecutan al final de 
+					cada iteración. Al final de la última iteración el sistema esta listo para producción.</p>
+
+				<p><b>Fase de Iteraciones.</b>
+					Esta fase incluye varias iteraciones sobre el sistema antes de ser entregado. El Plan de Entrega está compuesto 
+					por iteraciones de no más de tres semanas. En la primera iteración se puede intentar establecer una arquitectura 
+					del sistema que pueda ser utilizada durante el resto del proyecto. Esto se logra escogiendo las historias que 
+					fuercen la creación de esta arquitectura, sin embargo, esto no siempre es posible ya que es el cliente quien 
+					decide qué historias se implementarán en cada iteración (para maximizar el valor de negocio). Al final de la última
+					iteración el sistema estará listo para entrar en producción. Los elementos que deben tomarse en cuenta durante la 
+					elaboración del Plan de la Iteración son: historias de usuario no abordadas, velocidad del proyecto, pruebas de 
+					aceptación no superadas en la iteración anterior y tareas no terminadas en la iteración anterior. Todo el trabajo 
+					de la iteración es expresado en tareas de programación, cada una de ellas es asignada a un programador como responsable, 
+					pero llevadas a cabo por parejas de programadores.</p>
+
+				<p><b>Fase de producción.</b>
+					Requiere prueba y comprobación extra del funcionamiento del sistema antes de que éste se pueda liberar al cliente. 
+					En esta fase, los nuevos cambios pueden todavía ser encontrados y debe tomarse la decisión de si se incluyen o no 
+					en el release actual. Durante esta fase, las iteraciones pueden ser aceleradas de una a tres semanas. Las ideas y 
+					las sugerencias pospuestas se documentan para una puesta en práctica posterior por ejemplo en la fase de mantenimiento. 
+					Después de que se realice el primer release productivo para uso del cliente, el proyecto de Xp debe mantener el 
+					funcionamiento del sistema mientras que realiza nuevas iteraciones.</p>
+
+				<p><b>Fase de mantenimiento.</b>
+					Requiere de un mayor esfuerzo para satisfacer también las tareas del cliente. Así, la velocidad del desarrollo puede 
+					desacelerar después de que el sistema esté en la producción. La fase de mantenimiento puede requerir la incorporación 
+					de nueva gente y cambiar la estructura del equipo.</p>
+					
+				<p><b>Fase de muerte</b>
+					Es cuando el cliente no tiene más historias para ser incluidas en el sistema. Esto requiere que se satisfagan las
+					necesidades del cliente en otros aspectos como rendimiento y confiabilidad del sistema. Se genera la documentación 
+					final del sistema y no se realizan más cambios en la arquitectura. La muerte del proyecto también ocurre cuando el 
+					sistema no genera los beneficios esperados por el cliente o cuando no hay presupuesto para mantenerlo</p>				
+				
+					<ul> <b>Ventajas:</b>
+						<li>Metodología basada en prueba y error</li>
+						<li>Fundamentada en Valores y Prácticas</li>						
+					</ul>
+					
+					<ul> <b>Desventajas:</b>
+						<li>Es recomendable emplearlo solo en proyectos a corto plazo.</li>
+						<li>Altas comisiones en caso de fallar.</li>						
+					</ul>
+					
+					<div class="imagenXP">
+						<img src="imagenes/modeloXP.jpg" width="400">
+					</div>			
+					
+
+			</article>			
+		</section>
+		
+		<aside>
+			<h3>Características</h3>
+			<p>Metodología ágil basada en cuatro principios: simplicidad, comunicación, retroalimentación y valor. 
+			Además, orientada por pruebas y refactorización, se diseña e implementan las pruebas antes de programar 
+			la funcionalidad, el programador crea sus propios tests de unidad.</p>					
+		</aside>		
+		
+		
+	</section>
+	
+	<footer>
+		<p>ING SOFT - ACM, JYCC, JAOP</p>
+	</footer>
+	
+
+
+</body>
+
+
+
+
+</html>
